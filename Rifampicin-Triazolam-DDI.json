@@ -1,0 +1,5509 @@
+{
+  "Version": 76,
+  "Individuals": [
+    {
+      "Name": "European (P-gp modified, CYP3A4 36 h) - Villikka 1997",
+      "Seed": 17189110,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1' on 2019-11-29 10:17"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ]
+        },
+        {
+          "Name": "P-gp",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            }
+          ],
+          "Ontogeny": {
+            "Name": "P-gp",
+            "Table": {
+              "Name": "TableFormula",
+              "Percentile": 0.0,
+              "DistributionMetaData": [
+                {
+                  "Mean": 1E-14,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 1.915059E-05,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 5.486795E-05,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0001571905,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0004502473,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.001288958,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.00368424,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.01048397,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.02946235,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0800178,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.1994918,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.4165768,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.6716791,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.8542612,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.943803,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9796414,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.992799,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9974749,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9991173,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9996917,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9998924,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9999624,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9999869,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 1.0,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                }
+              ],
+              "XName": "Postmenstrual age",
+              "XDimension": "Age in years",
+              "XUnit": "year(s)",
+              "YName": "P-gp",
+              "YDimension": "Fraction",
+              "UseDerivedValues": false,
+              "Points": [
+                {
+                  "X": 0.0,
+                  "Y": 1E-14,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.08333334,
+                  "Y": 1.915059E-05,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.1666667,
+                  "Y": 5.486795E-05,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.25,
+                  "Y": 0.0001571905,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.3333333,
+                  "Y": 0.0004502473,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.4166667,
+                  "Y": 0.001288958,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.5,
+                  "Y": 0.00368424,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.5833333,
+                  "Y": 0.01048397,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.6666667,
+                  "Y": 0.02946235,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.75,
+                  "Y": 0.0800178,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.8333333,
+                  "Y": 0.1994918,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.9166667,
+                  "Y": 0.4165768,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.0,
+                  "Y": 0.6716791,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.083333,
+                  "Y": 0.8542612,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.166667,
+                  "Y": 0.943803,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.25,
+                  "Y": 0.9796414,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.333333,
+                  "Y": 0.992799,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.416667,
+                  "Y": 0.9974749,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.5,
+                  "Y": 0.9991173,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.583333,
+                  "Y": 0.9996917,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.666667,
+                  "Y": 0.9998924,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.75,
+                  "Y": 0.9999624,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.833333,
+                  "Y": 0.9999869,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 3.333333,
+                  "Y": 1.0,
+                  "RestartSolver": false
+                }
+              ]
+            }
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.41,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
+            }
+          ]
+        },
+        {
+          "Name": "ATP1A2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "Value": 0.0062154033171
+            },
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0508741242
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.3179118843
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0158938619
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0272345453
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.7034193524
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.0073903254795
+            },
+            {
+              "Name": "Skin",
+              "Value": 0.0389467988
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.0103243118
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0309435884
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0786998764
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.47661714,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "UGT1A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 2.32,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "GABRG2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0877710492,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Rifampicin",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.5,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "DrugBank logP",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.7,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Templeton 2011",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 17.0,
+              "Unit": "%",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Templeton 2011 (equilibrium dialysis)"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Baneyx 2013",
+          "IsDefault": false,
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 16.0,
+              "Unit": "%"
+            }
+          ]
+        },
+        {
+          "Name": "Boman 1974",
+          "IsDefault": false,
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 11.0,
+              "Unit": "%"
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Aqueous solubility",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 2800.0,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "FaSSIF",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 450.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5
+            }
+          ]
+        },
+        {
+          "Name": "FeSSIF",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1600.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 5.0
+            }
+          ]
+        },
+        {
+          "Name": "Optimized",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1211.88,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 1.24E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 7.9,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Type": "Acid",
+          "Pka": 1.7,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Nakajima 2011",
+          "Molecule": "AADAC",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 6.5,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 195.1,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 9.865,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Collett 2004",
+          "Molecule": "P-gp",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 60.0,
+              "Unit": "nmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 2.87,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 55.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.6088,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Tirona 2003",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 109.6,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.372,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 1.5,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 7.796,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Kajosaari 2005",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 18.5,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Kajosaari et al. 2005"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Reitman 2011",
+          "Molecule": "P-gp",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 169.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Reitman 2011 (IC50 = Ki (169 µM / (1+ (0.1 µM / 177 µM) )"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Templeton 2011",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Templeton 2011 (weighted mean for FHH)"
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 9.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Templeton 2011 (weighted mean for FHH)"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Greiner 1999",
+          "Molecule": "P-gp",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Hanke et al. 2018"
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 2.5,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Greiner et al. 1999"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Dixit 2007",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Hanke et al. 2018"
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.383,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Assumed",
+          "Molecule": "AADAC",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Hanke et al. 2018"
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.985,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 822.94,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "Triazolam",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.897007419,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.174,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "PMID: 3360971"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 4.53,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "drugbank.ca"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "drugbank.ca"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 7.0220146601E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 1.52,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "alpha-OH pathway",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 2.36,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 8632299"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 74.2,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 8632299"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 4.0317206142,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "4-OH pathway",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 10.27,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 8632299"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 305.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 8632299"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 17.5448180963,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 2.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 343.21,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Oral solution",
+      "FormulationType": "Formulation_Dissolved"
+    },
+    {
+      "Name": "Halcion",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 1.7958147418,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 2.5169993312,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'IV + Oral' on 2018-11-13 16:52"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Triazolam 0.5 mg SD PO",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 0.5,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Rifampicin 600 mg over 5 days",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 600.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 120.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Triazolam 0.5 mg @ t=113h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.5,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 113.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Villikka 1997 - Triazolam control - 0.5 mg SD PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Triazolam 0.5 mg SD PO|Halcion|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h) - Villikka 1997",
+      "Compounds": [
+        {
+          "Name": "Triazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            }
+          ],
+          "Protocol": {
+            "Name": "Triazolam 0.5 mg SD PO",
+            "Formulations": [
+              {
+                "Name": "Halcion",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Villikka 1997 - Triazolam control - 0.5 mg SD PO-Triazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Villikka 1997 - Triazolam control - 0.5 mg SD PO|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#C04000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#00FF00",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#808080",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#C0C000",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#000000",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Rifampicin-Triazolam-DDI\nVillikka 1997 - Triazolam control - 0.5 mg SD PO\n2019-11-29 10:40"
+        }
+      ]
+    },
+    {
+      "Name": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days) - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)",
+        "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+        "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv."
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 112.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 112.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 114.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 114.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 120.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Rifampicin 600 mg over 5 days|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin 600 mg over 5 days|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin 600 mg over 5 days|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin 600 mg over 5 days|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin 600 mg over 5 days|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Triazolam 0.5 mg @ t=113h|Halcion|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (interstitial->intracellular)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Triazolam|P (intracellular->interstitial)",
+          "Value": 0.00015477761992,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h) - Villikka 1997",
+      "Compounds": [
+        {
+          "Name": "Triazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            }
+          ],
+          "Protocol": {
+            "Name": "Triazolam 0.5 mg @ t=113h",
+            "Formulations": [
+              {
+                "Name": "Halcion",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Aqueous solubility",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Templeton 2011",
+              "GroupName": "COMPOUND_FRACTION_UNBOUND"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rifampicin 600 mg over 5 days",
+            "Formulations": [
+              {
+                "Name": "Oral solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 110.481407,
+              "Max": 122.916985,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.01178792E-07,
+              "Max": 0.738141954,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO-Triazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days) - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days) - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days) - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
+              "CurveOptions": {
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#C04000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#00FF00",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#808080",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#C0C000",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#8080FF",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.-Triazolam-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+              "Y": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual",
+              "CurveOptions": {
+                "Color": "#0000C0",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Rifampicin-Triazolam-DDI\nVillikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO\n2019-11-29 10:41"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Reitman 2011",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 726.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Triazolam + placebo"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion®"
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "Arith. SEM converted to arith. SD"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 343.21
+              },
+              "Values": [
+                0.000826565665,
+                0.001200524,
+                0.00118075975,
+                0.0007676808,
+                0.00072840217,
+                0.00051173236,
+                0.0003346765,
+                0.000255948427,
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.0008346363,
+            0.001924509,
+            0.002373282,
+            0.00250460487,
+            0.002294199,
+            0.00177886907,
+            0.00136926991,
+            0.00109665,
+            0.000657219731,
+            0.0003796648
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days) - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1004.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1; Table I"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Treatment arm (pretreatment with rifampin; 600 mg; 5 days)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 113.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days) - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.0001082591,
+            0.0002365623,
+            0.0002646447,
+            0.0002459575,
+            0.000155073,
+            7.755124E-05,
+            5.34215724E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days) - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          113.5,
+          114.0,
+          114.5,
+          115.0,
+          116.0,
+          117.0,
+          118.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1005.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control arm (pretreatment with placebo for 5 days); Subject 1"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.001250828,
+            0.002932953,
+            0.00254747,
+            0.002598635,
+            0.002175267,
+            0.00149294094,
+            0.001226256,
+            0.0009699315,
+            0.000790654449,
+            0.000341988285
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1006.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control arm (pretreatment with placebo for 5 days); Subject 2"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.00121156091,
+            0.002792349,
+            0.00298545021,
+            0.00271654688,
+            0.002186332,
+            0.001694059,
+            0.00128794508,
+            0.001036549,
+            0.0005823606,
+            0.000336637575
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1007.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control arm (pretreatment with placebo for 5 days); Subject 3"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.0001000969,
+            0.00118291611,
+            0.003257811,
+            0.002938655,
+            0.00239115115,
+            0.001945654,
+            0.00153886608,
+            0.00126402,
+            0.0007261542,
+            0.0004132341
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1008.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control arm (pretreatment with placebo for 5 days); Subject 4"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.0003966564,
+            0.00134019612,
+            0.00190098293,
+            0.001901874,
+            0.001576315,
+            0.00133137,
+            0.001072675,
+            0.0009587703,
+            0.0006050269,
+            0.0004316181
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1009.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control arm (pretreatment with placebo for 5 days); Subject 5"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.00265759113,
+            0.003574548,
+            0.003752604,
+            0.00325593,
+            0.00257050712,
+            0.001953395,
+            0.001375487,
+            0.001075657,
+            0.000633134448,
+            0.0003621474
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1010.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control arm (pretreatment with placebo for 5 days); Subject 6"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.001258954,
+            0.003161577,
+            0.003286896,
+            0.002853853,
+            0.002234515,
+            0.00181711407,
+            0.001520371,
+            0.001224738,
+            0.000757993,
+            0.0004691233
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1011.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control arm (pretreatment with placebo for 5 days); Subject 7"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.000143654,
+            0.000295622274,
+            0.0008723041,
+            0.0014863339,
+            0.001329012,
+            0.001070662,
+            0.000862455,
+            0.000485447119,
+            0.000283814181
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1012.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control arm (pretreatment with placebo for 5 days); Subject 8"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            8.856282E-05,
+            0.001401279,
+            0.002941737,
+            0.003495846,
+            0.00319155585,
+            0.00225570286,
+            0.001769339,
+            0.001401152,
+            0.000769581646,
+            0.000395496376
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1013.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control arm (pretreatment with placebo for 5 days); Subject 9"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.0001296909,
+            0.0003100315,
+            0.000429846725,
+            0.00252337987,
+            0.00371254981,
+            0.00287955184,
+            0.001991353,
+            0.001559185,
+            0.0008124865,
+            0.0005028808
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1014.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control arm (pretreatment with placebo for 5 days); Subject 10"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.001264764,
+            0.00233224872,
+            0.002249545,
+            0.00188035215,
+            0.001473096,
+            0.001198897,
+            0.000912812131,
+            0.0007719173,
+            0.000447476079,
+            0.000259431225
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Control arm (pretreatment with placebo for 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1015.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 1"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 113.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            9.02878746E-05,
+            0.000129459091,
+            0.0002584765,
+            0.0001203702,
+            7.10087E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 1 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          114.0,
+          114.5,
+          115.0,
+          116.0,
+          117.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1016.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 2"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 113.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            8.84420442E-05,
+            0.000215771186,
+            0.0002465258,
+            0.000213939507,
+            0.000147938918,
+            0.0001093224,
+            6.02086147E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 2 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          113.5,
+          114.0,
+          114.5,
+          115.0,
+          116.0,
+          117.0,
+          118.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1017.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 3"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 113.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.000118678596,
+            0.0002604474,
+            0.000510287,
+            0.000717937131,
+            0.0004440392,
+            0.00022946141,
+            0.0001208371,
+            6.01271822E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 3 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          113.5,
+          114.0,
+          114.5,
+          115.0,
+          116.0,
+          117.0,
+          118.0,
+          119.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1018.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 4"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 113.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            6.990473E-05,
+            0.0003286035,
+            0.000227552388,
+            0.000160580108,
+            0.000109171706,
+            7.08014E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 4 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          113.5,
+          114.0,
+          114.5,
+          115.0,
+          116.0,
+          117.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1019.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 5"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 113.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.000422591518,
+            0.000270265,
+            0.00016167901,
+            9.9623714E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 5 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          114.0,
+          114.5,
+          115.0,
+          116.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1020.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 6"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 113.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.0001718532,
+            0.000140954711,
+            8.864886E-05,
+            6.014699E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 6 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          113.5,
+          114.0,
+          114.5,
+          115.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1021.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 7"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 113.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.0001294243,
+            0.0001705526,
+            0.0001691076,
+            0.0001005709,
+            5.042865E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 7 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          114.0,
+          114.5,
+          115.0,
+          116.0,
+          117.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1022.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 8"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 113.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.0001968072,
+            0.0002475711,
+            0.000225610493,
+            0.000147796789,
+            7.93386062E-05,
+            6.9732414E-05,
+            5.957751E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 8 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          114.0,
+          114.5,
+          115.0,
+          116.0,
+          117.0,
+          118.0,
+          119.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1023.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 9"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 113.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            0.0005869697,
+            0.0003862667,
+            0.0002517418,
+            0.000198622089,
+            0.0001201419
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 9 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          113.5,
+          114.0,
+          114.5,
+          115.0,
+          116.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1024.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Villikka 1997"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9024169"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 10"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 113.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Halcion 0.25 mg tablets, Upjohn, Kalamazoo, Mich."
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|Individual"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 5E-11
+          },
+          "Values": [
+            8.86872658E-05,
+            0.000393053284,
+            0.0002445225,
+            0.000128379892,
+            7.067958E-05,
+            5.131233E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days); Subject 10 - Triazolam - PO - 0.5 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          114.0,
+          114.5,
+          115.0,
+          116.0,
+          117.0,
+          118.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ]
+}
