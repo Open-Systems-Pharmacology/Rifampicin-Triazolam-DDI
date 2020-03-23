@@ -2018,7 +2018,7 @@
       ]
     },
     {
-      "Name": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO",
+      "Name": "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO",
       "Model": "4Comp",
       "ObservedData": [
         "Villikka 1997 - Treatment arm (pretreatment with rifampin; 600 mg; 5 days) - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)",
@@ -2422,8 +2422,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 110.481407,
-              "Max": 122.916985,
+              "Min": 110.4814,
+              "Max": 122.917,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -2435,8 +2435,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 1.01178792E-07,
-              "Max": 0.738141954,
+              "Min": 1.011788E-07,
+              "Max": 0.738142,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -2445,18 +2445,18 @@
           ],
           "Curves": [
             {
-              "Name": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO-Triazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO-Triazolam-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+              "Y": "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Villikka 1997 - Rifampicin 600 mg over 5 days + Triazolam 0.5 mg SD PO|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "Y": "Villikka 1997 - Rifampicin 600 mg over 5 days and Triazolam 0.5 mg SD PO|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2
