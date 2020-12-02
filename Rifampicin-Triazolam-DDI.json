@@ -1,5 +1,5 @@
 {
-  "Version": 76,
+  "Version": 77,
   "Individuals": [
     {
       "Name": "European (P-gp modified, CYP3A4 36 h) - Villikka 1997",
@@ -104,6 +104,11 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -213,6 +218,23 @@
             {
               "Name": "ColonSigmoid",
               "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -602,6 +624,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -644,6 +676,23 @@
               "Name": "Muscle",
               "MembraneLocation": "Basolateral",
               "Value": 0.00064682539683
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -759,6 +808,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -789,6 +848,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -812,6 +881,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         }
@@ -1515,17 +1594,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
           "Name": "End time",
           "Value": 120.0,
           "Unit": "h",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
         }
       ]
     },
@@ -1602,31 +1681,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -2005,7 +2065,6 @@
               "X": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|Time",
               "Y": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "#000000",
                 "LegendIndex": 12,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2044,7 +2103,7 @@
             },
             {
               "Name": "End time",
-              "Value": 112.0,
+              "Value": 113.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -2064,7 +2123,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 112.0,
+              "Value": 113.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -2072,7 +2131,7 @@
             },
             {
               "Name": "End time",
-              "Value": 114.0,
+              "Value": 137.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -2085,31 +2144,6 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 114.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 120.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
             }
           ]
         }
@@ -2398,7 +2432,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
