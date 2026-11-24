@@ -1437,18 +1437,6 @@
               }
             }
           ]
-        },
-        {
-          "Name": "DrugBank logP",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.7,
-              "Unit": "Log Units",
-              "ValueOrigin": {}
-            }
-          ]
         }
       ],
       "FractionUnbound": [
@@ -1462,35 +1450,9 @@
               "Unit": "%",
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "Other",
+                "Method": "InVitro",
                 "Description": "Templeton 2011 (equilibrium dialysis)"
               }
-            }
-          ]
-        },
-        {
-          "Name": "Baneyx 2013",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 16.0,
-              "Unit": "%",
-              "ValueOrigin": {}
-            }
-          ]
-        },
-        {
-          "Name": "Boman 1974",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 11.0,
-              "Unit": "%",
-              "ValueOrigin": {}
             }
           ]
         }
@@ -1504,68 +1466,17 @@
               "Value": 2800.0,
               "Unit": "mg/l",
               "ValueOrigin": {
-                "Source": "Database",
-                "Description": "DrugBank"
+                "Source": "Publication",
+                "Description": "Boman 1974"
               }
             },
             {
               "Name": "Reference pH",
-              "Value": 7.0,
+              "Value": 7.5,
               "ValueOrigin": {
-                "Source": "Database",
-                "Description": "DrugBank"
+                "Source": "Publication",
+                "Description": "Boman 1974"
               }
-            }
-          ]
-        },
-        {
-          "Name": "FaSSIF",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 450.0,
-              "Unit": "mg/l",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.5,
-              "ValueOrigin": {}
-            }
-          ]
-        },
-        {
-          "Name": "FeSSIF",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 1600.0,
-              "Unit": "mg/l",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 5.0,
-              "ValueOrigin": {}
-            }
-          ]
-        },
-        {
-          "Name": "Optimized",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 1211.88,
-              "Unit": "mg/l",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 7.0,
-              "ValueOrigin": {}
             }
           ]
         }
@@ -1592,14 +1503,16 @@
           "Type": "Base",
           "Pka": 7.9,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Database",
+            "Description": "DrugBank DB01045"
           }
         },
         {
           "Type": "Acid",
           "Pka": 1.7,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Database",
+            "Description": "DrugBank DB01045"
           }
         }
       ],
@@ -1612,20 +1525,17 @@
             {
               "Name": "Enzyme concentration",
               "Value": 1.0,
-              "Unit": "µmol/l",
-              "ValueOrigin": {}
+              "Unit": "µmol/l"
             },
             {
               "Name": "Vmax",
               "Value": 6.5,
-              "Unit": "µmol/l/min",
-              "ValueOrigin": {}
+              "Unit": "µmol/l/min"
             },
             {
               "Name": "Km",
               "Value": 195.1,
-              "Unit": "µmol/l",
-              "ValueOrigin": {}
+              "Unit": "µmol/l"
             },
             {
               "Name": "kcat",
@@ -1647,20 +1557,17 @@
             {
               "Name": "Transporter concentration",
               "Value": 60.0,
-              "Unit": "nmol/l",
-              "ValueOrigin": {}
+              "Unit": "nmol/l"
             },
             {
               "Name": "Vmax",
               "Value": 2.87,
-              "Unit": "µmol/l/min",
-              "ValueOrigin": {}
+              "Unit": "µmol/l/min"
             },
             {
               "Name": "Km",
               "Value": 55.0,
-              "Unit": "µmol/l",
-              "ValueOrigin": {}
+              "Unit": "µmol/l"
             },
             {
               "Name": "kcat",
@@ -1682,20 +1589,17 @@
             {
               "Name": "Transporter concentration",
               "Value": 109.6,
-              "Unit": "µmol/l",
-              "ValueOrigin": {}
+              "Unit": "µmol/l"
             },
             {
               "Name": "Vmax",
               "Value": 0.372,
-              "Unit": "µmol/l/min",
-              "ValueOrigin": {}
+              "Unit": "µmol/l/min"
             },
             {
               "Name": "Km",
               "Value": 1.5,
-              "Unit": "µmol/l",
-              "ValueOrigin": {}
+              "Unit": "µmol/l"
             },
             {
               "Name": "kcat",
@@ -1728,6 +1632,38 @@
         {
           "InternalName": "CompetitiveInhibition",
           "DataSource": "Kajosaari 2005",
+          "Molecule": "CYP2C8",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 30.2,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Kajosaari et al. 2005"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "CYP2C9",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 150.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Yoshida 2012"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Kajosaari 2005",
           "Molecule": "CYP3A4",
           "Parameters": [
             {
@@ -1743,18 +1679,141 @@
         },
         {
           "InternalName": "CompetitiveInhibition",
-          "DataSource": "Reitman 2011",
+          "DataSource": "Hanke 2021",
+          "Molecule": "BCRP",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 14.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Prueksaritanont 2014"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.29,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Bi 2019"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "OATP1B3",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.5,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Bi 2019"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "OATP2B1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 78.2,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Zhang 2019"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
           "Molecule": "P-gp",
           "Parameters": [
             {
               "Name": "Ki",
-              "Value": 169.0,
+              "Value": 9.1,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "InVitro",
+                "Description": "NBI"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Chen 2010",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.65
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Buckley 2014",
+          "Molecule": "CYP2C8",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
               "Unit": "µmol/l",
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Reitman 2011 (IC50 = Ki (169 µM / (1+ (0.1 µM / 177 µM) )"
+                "Description": "Templeton IE, Houston JB, Galetin A. Predictive utility of in vitro rifampin induction data generated in fresh and cryopreserved human hepatocytes, Fa2N-4, and HepaRG cells. Drug Metab Dispos. 2011;39:1921–9; Shou M, Hayashi M, Pan Y, Xu Y, Morrissey K, Xu L, et al. Modeling, prediction, and in vitro in vivo correlation of CYP3A4 induction. Drug Metab Dispos. 2008;36:2355–70. "
               }
+            },
+            {
+              "Name": "Emax",
+              "Value": 3.2,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Buckley DB, Wiegand CM, Prentiss PL, Fahmi OA. Time-course of cytochrome P450 (CYP450) induction in cultured human hepatocytes: Evaluation of activity and mRNA expression profiles for six inducible CYP450 enzymes. ISSX. 2013"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Rae 2001",
+          "Molecule": "CYP2E1",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.8
             }
           ]
         },
@@ -1784,8 +1843,8 @@
         },
         {
           "InternalName": "Induction",
-          "DataSource": "Greiner 1999",
-          "Molecule": "P-gp",
+          "DataSource": "Assumed",
+          "Molecule": "AADAC",
           "Parameters": [
             {
               "Name": "EC50",
@@ -1799,11 +1858,11 @@
             },
             {
               "Name": "Emax",
-              "Value": 2.5,
+              "Value": 0.985,
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Greiner et al. 1999"
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
               }
             }
           ]
@@ -1836,8 +1895,8 @@
         },
         {
           "InternalName": "Induction",
-          "DataSource": "Assumed",
-          "Molecule": "AADAC",
+          "DataSource": "Greiner 1999",
+          "Molecule": "P-gp",
           "Parameters": [
             {
               "Name": "EC50",
@@ -1851,11 +1910,11 @@
             },
             {
               "Name": "Emax",
-              "Value": 0.985,
+              "Value": 2.5,
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "ParameterIdentification",
-                "Description": "Hanke et al. 2018"
+                "Method": "Assumption",
+                "Description": "Greiner et al. 1999"
               }
             }
           ]
@@ -1869,8 +1928,7 @@
         {
           "Name": "Molecular weight",
           "Value": 822.94,
-          "Unit": "g/mol",
-          "ValueOrigin": {}
+          "Unit": "g/mol"
         }
       ]
     },
@@ -1941,7 +1999,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 7.0220146601E-05,
+              "Value": 7.0220146601e-05,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
